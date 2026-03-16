@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy Birthday Samira</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ── PAGE 1 ── -->
+  <div class="page active" id="page1" onclick="goToPage(2)">
+    <div class="p1-photo-left"><img src="images/left.png" alt=""></div>
+    <div class="p1-center">
+      <div class="p1-hi">Hi</div>
+      <div class="p1-name-line"><span class="iam">This is </span><span class="name">Samira!!!</span></div>
+      <p class="p1-birthday">Today, Chaitra 20, is the day she was born.</p>
+      <p class="p1-hint">click anywhere</p>
+    </div>
+    <div class="p1-photo-right"><img src="images/right.png" alt=""></div>
+  </div>
+
+  <!-- ── PAGE 2 ── -->
+  <div class="page" id="page2" onclick="goToPage(3)">
+    <div class="p2-title">
+      Let's See Her :)
+      <span class="sub">she slays every look ✨</span>
+    </div>
+    <div class="p p1">  <img src="images/2.png"  alt=""> <div class="caption">Classic Queen 👑</div>    </div>
+    <div class="p p2">  <img src="images/9.png"  alt=""> <div class="caption">Casual Girlie 🌸</div>    </div>
+    <div class="p p3">  <img src="images/3.png"  alt=""> <div class="caption">Street Style 😎</div>     </div>
+    <div class="p p4">  <img src="images/5.png"  alt=""> <div class="caption">Purple Royalty 💜</div>   </div>
+    <div class="p p5">  <img src="images/4.png"  alt=""> <div class="caption">She's Everything 🌺</div> </div>
+    <div class="p p6">  <img src="images/8.png"  alt=""> <div class="caption">Desi Glam 🔥</div>        </div>
+    <div class="p p7">  <img src="images/1.png"  alt=""> <div class="caption">Floral Dream 🌼</div>     </div>
+    <div class="p p8">  <img src="images/10.png" alt=""> <div class="caption">Baby Mode 🐣</div>        </div>
+    <div class="p p9">  <img src="images/6.png"  alt=""> <div class="caption">Soft & Sweet 🩷</div>     </div>
+    <div class="p p10"> <img src="images/7.png"  alt=""> <div class="caption">Saree Stunner 🌹</div>    </div>
+    <div class="p p11"> <img src="images/2.png"  alt=""> <div class="caption">Always Slaying ✨</div>   </div>
+    <div class="p p12"> <img src="images/9.png"  alt=""> <div class="caption">Too Cute 🥰</div>         </div>
+    <div class="p p13"> <img src="images/4.png"  alt=""> <div class="caption">Main Character 🎬</div>   </div>
+    <div class="p2-hint">click anywhere</div>
+  </div>
+
+  <!-- ── PAGE 3 ── -->
+  <div class="page" id="page3">
+    <div class="slideshow" id="slideshow" onclick="nextSlide()">
+
+      <div class="slide active">
+        <div class="photo-left"><img src="images/slide1.png" alt=""></div>
+        <div class="slide-text">
+          <div class="line1">hehe 🍼</div>
+          <div class="line2">Pudki Her :)</div>
+          <div class="line3">look at this little one...</div>
+        </div>
+        <div class="photo-right"><img src="images/slide2.png" alt=""></div>
+      </div>
+
+      <div class="slide">
+        <div class="photo-left"><img src="images/slide3.png" alt=""></div>
+        <div class="slide-text">
+          <div class="line1">sigma ho ni yarrr 😏</div>
+          <div class="line2">Hepyaaaa Ho Uslai???</div>
+          <div class="line3">still the same energy lol</div>
+        </div>
+        <div class="photo-right"><img src="images/slide4.png" alt=""></div>
+      </div>
+
+      <div class="slide">
+        <div class="photo-left"><img src="images/slide5.png" alt=""></div>
+        <div class="slide-text">
+          <div class="line1">haina haina 🥺</div>
+          <div class="line2">Halka cutuu pani hoo haiii</div>
+          <div class="line3">getting cuter every year 🌸</div>
+        </div>
+        <div class="photo-right"><img src="images/slide6.png" alt=""></div>
+      </div>
+
+      <div class="slide">
+        <div class="photo-left"><img src="images/slide7.png" alt=""></div>
+        <div class="slide-text">
+          <div class="line1">by the wayy 👀</div>
+          <div class="line2">Last Alxii Panii haii</div>
+          <div class="line3">ok ok we see you 😂</div>
+        </div>
+        <div class="photo-right"><img src="images/slide8.png" alt=""></div>
+      </div>
+
+      <div class="slide">
+        <div class="photo-left"><img src="images/slide9.png" alt=""></div>
+        <div class="slide-text">
+          <div class="line1">dher bolxeee hai 😁</div>
+          <div class="line2">So, Don't Mind her 😁</div>
+          <div class="line3">said with love though 🥰</div>
+        </div>
+        <div class="photo-right"><img src="images/slide10.png" alt=""></div>
+      </div>
+
+      <div class="slide">
+        <div class="photo-left"><img src="images/slide11.png" alt=""></div>
+        <div class="slide-text">
+          <div class="line1">aareee birsexuuu 🎂</div>
+          <div class="line3">Birthdayy po ho twwwww 🎉✨</div>
+          <div class="line2">Happy Birthdayyy!!!</div>
+        </div>
+        <div class="photo-right"><img src="images/slide12.png" alt=""></div>
+      </div>
+
+    </div>
+
+    <div class="dots" id="dots">
+      <div class="dot active" onclick="goToSlide(0,event)"></div>
+      <div class="dot"        onclick="goToSlide(1,event)"></div>
+      <div class="dot"        onclick="goToSlide(2,event)"></div>
+      <div class="dot"        onclick="goToSlide(3,event)"></div>
+      <div class="dot"        onclick="goToSlide(4,event)"></div>
+      <div class="dot"        onclick="goToSlide(5,event)"></div>
+    </div>
+    <div class="slide-hint" id="slideHint">click anywhere to continue →</div>
+  </div>
+
+  <!-- ── PAGE 4 — Final Surprise ── -->
+  <div class="page" id="page4">
+    <div class="glow"></div>
+    <div id="confetti"></div>
+
+    <div class="p4-layout">
+
+      <!-- Left text -->
+      <div class="p4-side left">
+        <div class="p4-side-line">
+          <span class="gold">Happy Birthday</span>
+          Samira, you deserve all the joy, laughter and love this world has to offer 🎂
+        </div>
+      </div>
+
+      <!-- Center -->
+      <div class="p4-center">
+        <div class="p4-text-top">
+          <div class="p4-big">
+            Happy Birthday
+            <span class="name">Samira !!!</span>
+          </div>
+          <span class="p4-sub">Chaitra 20 · your special day 🎂</span>
+        </div>
+        <div class="p4-samira">
+          <img src="images/1.png" alt="Samira">
+        </div>
+      </div>
+
+      <!-- Right text -->
+      <div class="p4-side right">
+        <div class="p4-side-line">
+          <span class="gold">Enjoy your day</span>
+          You only turn this age once — make it count, celebrate loud and shine bright ✨
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+<script>
+  function goToPage(num) {
+    document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
+    document.getElementById('page' + num).classList.add('active');
+    if (num === 4) launchConfetti();
+  }
+
+  function launchConfetti() {
+    const colors = ['#C9954C','#fff','#F5C891','#E8C99A','rgba(255,255,255,0.5)'];
+    const container = document.getElementById('confetti');
+    container.innerHTML = '';
+    for (let i = 0; i < 45; i++) {
+      const p = document.createElement('div');
+      p.classList.add('confetti-piece');
+      const size = Math.random() * 5 + 3;
+      p.style.cssText = `
+        left: ${Math.random() * 100}vw;
+        width: ${size}px; height: ${size}px;
+        background: ${colors[Math.floor(Math.random() * colors.length)]};
+        animation-duration: ${Math.random() * 5 + 6}s;
+        animation-delay: ${Math.random() * 3}s;
+        border-radius: ${Math.random() > 0.5 ? '50%' : '1px'};
+      `;
+      container.appendChild(p);
+    }
+  }
+
+  let current = 0;
+  const total  = 6;
+  const slides = document.querySelectorAll('.slide');
+  const dots   = document.querySelectorAll('.dot');
+  const hint   = document.getElementById('slideHint');
+
+  function updateDots() {
+    dots.forEach((d,i) => d.classList.toggle('active', i === current));
+    hint.classList.toggle('hidden', current === total - 1);
+  }
+
+  function goToSlide(index, e) {
+    if (e) e.stopPropagation();
+    if (index === current) return;
+    const goingForward = index > current;
+    const prev = current;
+    slides[index].classList.remove('active','exit-left','exit-right');
+    slides[index].style.transform = goingForward ? 'translateX(100%)' : 'translateX(-100%)';
+    slides[index].offsetHeight;
+    slides[prev].classList.remove('active');
+    slides[prev].classList.add(goingForward ? 'exit-left' : 'exit-right');
+    slides[index].style.transform = '';
+    slides[index].classList.add('active');
+    current = index;
+    updateDots();
+    setTimeout(() => {
+      slides[prev].classList.remove('exit-left','exit-right');
+      slides[prev].style.transform = '';
+    }, 700);
+  }
+
+  function nextSlide() {
+    if (current >= total - 1) {
+      goToPage(4);
+      return;
+    }
+    goToSlide(current + 1, null);
+  }
+
+  document.addEventListener('keydown', e => {
+    if (e.key === 'ArrowRight' || e.key === ' ') nextSlide();
+    if (e.key === 'ArrowLeft' && current > 0) goToSlide(current - 1, null);
+  });
+
+  let tx = 0;
+  document.addEventListener('touchstart', e => tx = e.touches[0].clientX);
+  document.addEventListener('touchend', e => {
+    const d = tx - e.changedTouches[0].clientX;
+    if (d > 50) nextSlide();
+    if (d < -50 && current > 0) goToSlide(current - 1, null);
+  });
+</script>
+
+</body>
+</html>
